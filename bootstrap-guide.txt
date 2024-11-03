@@ -1,0 +1,211 @@
+
+bootstrap is library of css. it is 1st framework of html css, javascript for responsive webpage design.
+it has collections of pre-defined css classes.
+
+according to bootstrap all the devices are 6 types based on screen width.
+  1. extra small        - screen width 1px to 576px
+  2. small              - screen width 576px to 768px 
+  3. medium             - screen width 768px to 992px
+  4. large              - screen width 992px to 1200px 
+  5. extra large        - screen width 1200px to 1400px
+  6. extra extra large  - screen width > 1400px 
+---------------------------------------------------------------------
+bootstrap has given 12 css classes for each type of device 
+
+   1. extra small
+        .col-1
+        .col-2
+        .col-3
+        .col-4
+        .col-5
+        .col-6
+        .col-7
+        .col-8
+        .col-9
+        .col-10
+        .col-11
+        .col-12
+
+   2. small
+        .col-sm-1
+        .col-sm-2
+        .col-sm-3
+        .col-sm-4
+        .col-sm-5
+        .col-sm-6
+        .col-sm-7
+        .col-sm-8
+        .col-sm-9
+        .col-sm-10
+        .col-sm-11
+        .col-sm-12
+
+   3. medium
+        .col-md-1
+        .col-md-2
+        .col-md-3
+        .col-md-4
+        .col-md-5
+        .col-md-6
+        .col-md-7
+        .col-md-8
+        .col-md-9
+        .col-md-10
+        .col-md-11
+        .col-md-12
+
+    4. large
+        .col-lg-1
+        .col-lg-2
+        .col-lg-3
+        .col-lg-4
+        .col-lg-5
+        .col-lg-6
+        .col-lg-7
+        .col-lg-8
+        .col-lg-9
+        .col-lg-10
+        .col-lg-11
+        .col-lg-12
+    
+    5. extra large
+        .col-xl-1
+        .col-xl-2
+        .col-xl-3
+        .col-xl-4
+        .col-xl-5
+        .col-xl-6
+        .col-xl-7
+        .col-xl-8
+        .col-xl-9
+        .col-xl-10
+        .col-xl-11
+        .col-xl-12
+
+    6. extra extra large
+        .col-xxl-1
+        .col-xxl-2
+        .col-xxl-3
+        .col-xxl-4
+        .col-xxl-5
+        .col-xxl-6
+        .col-xxl-7
+        .col-xxl-8
+        .col-xxl-9
+        .col-xxl-10
+        .col-xxl-11
+        .col-xxl-12
+==========72 classes==========
+    Follow these steps while creating webpage using bootstrap.
+        1. link to bootstrap.css file in head section.
+        2. follow body 
+        3. inside body with div, section etc tag. follow the class as 
+            .container      - it has margin from left and right
+            .container-fluid - it cover full width. it has no margin.
+        4. inside container / container-fluid follow the class 
+            .row  - it cover full width of container / container-fluid
+        5. each row contain max 12 columns.
+------------------------------------------------------------------------
+    Classes for text alignment 
+        .text-start (left)
+        .text-center 
+        .text-end (right)
+------------------------------------------------------------------------
+    Classes for box shadow 
+        .shadow 
+        .shadow-lg 
+------------------------------------------------------------------------
+    Classes for radius 
+        .rounded - 6px radius 
+        .rounded-circle - 50% radius 
+------------------------------------------------------------------------
+    Classes for margin and padding 
+        m - margin 
+        p - padding 
+        t - top 
+        b - bottom 
+        s - left 
+        e - end - right 
+
+        1 - 4px
+        2 - 8px
+        3 - 16px 
+        4 - 24px 
+        5 - 48px 
+    Padding 
+        .p-1 , .p-2, .p-3 , .p-4, .p-5
+        .pt-1 , .pt-2, .pt-3 , .pt-4, .pt-5
+        .pb-1 , .pb-2, .pb-3 , .pb-4, .pb-5
+        .ps-1 , .ps-2, .ps-3 , .ps-4, .ps-5
+        .pe-1 , .pe-2, .pe-3 , .pe-4, .pe-5
+
+    Margin 
+        .m-1, .m-2, .m-3, .m-4, .m-5
+        .mt-1, .mt-2, .mt-3, .mt-4, .mt-5
+        .mb-1, .mb-2, .mb-3, .mb-4, .mb-5
+        .ms-1, .ms-2, .ms-3, .ms-4, .ms-5
+        .me-1, .me-2, .me-3, .me-4, .me-5
+----------------------------------------------------------------------
+    Classes for background color 
+        .bg-primary   - blue 
+        .bg-info      - skyblue 
+        .bg-danger    - red 
+        .bg-success   - green 
+        .bg-warning   - yellow
+        .bg-secondary - grey 
+        .bg-white     - white 
+        .bg-dark      - black 
+        .bg-light     - crem color 
+------------------------------------------------------------------------
+    Classes for text color 
+        .text-primary   - blue 
+        .text-info      - skyblue 
+        .text-danger    - red 
+        .text-success   - green 
+        .text-warning   - yellow
+        .text-secondary - grey 
+        .text-white     - white 
+        .text-dark      - black 
+        .text-light     - crem color 
+------------------------------------------------------------------------
+    Classes for image 
+        .img-fluid  - it cover 100% width, height is auto 
+        .img-thumbnail 
+-------------------------------------------------------------------------
+    Classes table 
+        .table 
+        .table-bordered
+        .table-striped
+        .table-sm 
+        .table-hover 
+------------------------------------------------------------------------
+    Classes for left side navigation 
+        .list-group
+        .list-group-item 
+        .active 
+-----------------------------------------------------------------------
+    Classes for Card 
+        .card 
+        .card-header
+        .card-body 
+        .card-footer
+-----------------------------------------------------------------------
+    Classes for input tags 
+        .form-control (text, email, password, number, textarea, file, date)
+        .form-select ( select )
+    form control size 
+        .form-control-sm 
+        .form-control-lg  
+----------------------------------------------------------------------
+    Classes for button 
+        .btn 
+        .btn-primary   - blue 
+        .btn-info      - skyblue 
+        .btn-danger    - red 
+        .btn-success   - green 
+        .btn-warning   - yellow
+        .btn-secondary - grey 
+        .btn-white     - white 
+        .btn-dark      - black 
+        .btn-light     - crem color 
+---------------------------------------------------------------------
